@@ -1,4 +1,4 @@
-const baseURL = 'http://www.omdbapi.com/?apikey=a0428257&';
+const baseURL = 'https://www.omdbapi.com/?apikey=a0428257&';
 let arrayTitle;
 
 //! button variables
