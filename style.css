@@ -1,0 +1,106 @@
+body{
+  
+    color:seagreen;
+    font-family: 'Staatliches', cursive;
+    background-image: url(./assets/andrej-lisakov-V2OyJtFqEtY-unsplash.jpg);
+    background-image: center;
+    background-position: center;
+    background-size: cover;
+    background-position: inherit;
+}
+#background::before{
+    content: '';
+    position: absolute;
+    top: -100;
+    right: 0;
+    bottom: 0;
+    left:0;
+    height: 100vh;
+    background-color: rgba(0,0,0, .5);
+}
+header{
+    background-color: rgba(0,0,0,.3);
+    margin-bottom: 0;
+    z-index: 3;
+}
+header h1{
+    text-align: center;
+    font-size: 50px;
+}
+header p{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0;
+}
+.wrapper{
+    display: flex;
+    height: 80%;
+}
+.generaButtons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 5.5%;
+    /* margin-left: 20px; */
+    margin-right: 200px; 
+    /* padding: ; */
+    background-color: rgba(0,0,0,.3);
+    background-clip: content-box;
+    height: 80%;
+    z-index: 10;
+}
+button{
+    margin: 5px;
+}
+.resultsDisplay{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    z-index: 2;
+    /* background-color: cornflowerblue; */
+    /* width: 70%;  */
+}
+
+
+.headerTitle{
+    /* display: flex; */
+    /* justify-content: center; */
+text-align: center;
+    font-size: 30px;
+}
+
+.posterPhoto{
+    /* width: 40%; */
+    display: flex;
+    justify-content: flex-start;
+    /* margin-right: -100; */
+}
+.resultsDisplay li{
+    list-style: none;
+    font-size: 20px;
+    width: 60%;
+}
+.movInfo{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0;
+    float: right;
+    /* width: 60%; */
+    font-size: 40px;
+    align-items: center;
+    text-align: center;
+    
+}
+.ultimateSuggestion{
+    width: 10%;
+    z-index: 2;
+    margin: -30 200px 0 0;
+    background-color: rgba(0,0,0, .3);
+    position: absolute;
+    top: 482px;
+}
+.resultsBox{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction:row;
+}

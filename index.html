@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Nick's Movie suggestions</title>
+</head>
+<body>
+    <div id="background">
+    <header>
+        <h1>Movie suggestions!</h1>
+        <p>Are you looking for a movie to watch but not sure? Well click a button for a genera and receive a random suggestion for me! </p>
+    </header>
+    
+    <div class="wrapper">
+        <div class="generaButtons">
+            <p>
+                <button type="button" class="btn btn-outline-secondary actionButton">Action</button>
+            </p>
+            <p>
+                <button type="button" class="btn btn-outline-info aniButton">Animated</button>
+            </p>
+            <p>
+                <button type="button" class="btn btn-outline-primary dramaButton">Drama</button>
+            </p>
+            <p>
+                <button type="button" class="btn btn-outline-danger horrorButton">Horror</button>
+            </p>
+            <p>
+                <button type="button" class="btn btn-outline-warning comedyButton">Comedy</button>
+            </p>
+            <p>
+                <button type="button" class="btn btn-outline-success mysteryButton">Mystery</button>
+            </p>
+            
+        </div>
+        <div class="resultsDisplay">
+            <div class="headerTitle">
+                <h2 class="title"></h2>
+            </div>
+            <div class="resultsBox">
+            <div class ='posterPhoto'>
+                <img class="moviePoster" src="" alt="Movie Poster">
+            </div>
+            <div class="movInfo">
+                <ul>
+                    <li class="rating"></li>
+                    <li class="runtime"></li>
+                    <li class="plot"></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </div> 
+    <div class="ultimateSuggestion">
+        <p>Or would you prefer a cinematic masterpiece</p>
+        <p>
+          <button type="button" class="btn btn-outline-secondary btn-lg 
+        ultButton">The Ultimate Movie
+        </button>  
+        </p>
+    </div>
+</div>
+        <!-- <div class="meSection">
+            <p class="speechBubble">Looks like you're looking for a movie suggestion! click a button to be given a random movie from my personal recommendation vault</p>
+            <img src="" alt="">
+        </div> -->
+
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
